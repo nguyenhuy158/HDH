@@ -1,0 +1,3 @@
+so lon nhat: 12
+so nho nhat: 10
+trung binh: 11.00
