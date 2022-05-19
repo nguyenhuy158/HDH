@@ -4,7 +4,8 @@
 #include <stdatomic.h>
 #endif
 
-int main(int argc, char**argv) {
+int main(int argc, char **argv)
+{
     _Atomic int a;
     atomic_init(&a, 42);
     atomic_store(&a, 5);
@@ -13,4 +14,3 @@ int main(int argc, char**argv) {
 
     return EXIT_SUCCESS;
 }
-
